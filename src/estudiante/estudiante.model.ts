@@ -5,7 +5,8 @@ export const EstudianteSchema = new mongoose.Schema({
     Apellidos: String,
     User: String,
     Pass: String,
-    audio: Buffer
+    audio: Buffer,
+    grupo: String
 
 })
 
