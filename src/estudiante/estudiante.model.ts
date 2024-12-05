@@ -6,7 +6,7 @@ export const EstudianteSchema = new mongoose.Schema({
     User: String,
     Pass: String,
     audio: Buffer,
-    grupo: String
+    grupo: Number,
 
 })
 
@@ -17,3 +17,5 @@ export interface IEstudiante extends mongoose.Document{
     Pass: String;
     audio: Buffer
 }
+
+// Estoy trabajando desde el el local de diana marin
